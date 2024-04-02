@@ -1,0 +1,277 @@
+#logo{
+    width: 8rem;
+    background-color: transparent;
+    margin-left: 3rem;
+    /* box-shadow: 0 0 10px #4f867f,0 0 20px #1e775c,0 0 40px #033f30; */
+}
+/* #bg1{
+    z-index: -1;
+    background-size:cover;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+  
+} */
+#bg2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #282c35;
+    /* background-image: url(./img/bg2.jpg);
+    backdrop-filter: blur(10px); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;   
+    
+}
+/* .blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    backdrop-filter: blur(0.5rem);
+    
+} */
+nav{
+       /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+       font-family: "Nunito sans",Arial, Helvetica, sans-serif;
+       font-size:3vh;
+       line-height: 1.8;
+       color: #fff; 
+        
+         
+}
+#menu{
+    background-color: #979292;
+    color: #2e2d2d;
+   font-weight:bold;
+   line-height: 7vh;
+}
+.ftco-navbar-light{
+   
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+#ftco-nav{
+    max-width: 55%;
+    margin-right: 8%;
+}
+
+#b1{
+    margin: 0 1rem;
+   color: #919694;
+   font-weight: 400;
+   text-shadow: 2px 2px 2px black;   
+   padding:0 0.5rem;
+   border-radius: 0.5rem;
+   box-shadow: 2px 2px 2px rgb(8, 119, 88),-2px -2px 2px rgb(41, 40, 40);
+}
+#b1:hover{
+    color: #588582;
+    box-shadow: 0 0 10px #62bac5, 0 0 20px #0dafa2,0 0 40px #fff,0 0 80px #2d997e,0 0 120px #203d3c;
+}
+
+#txt1{
+    font-size: 6rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#h11{
+    font-size: 10vw;
+    font-weight:900;
+    color: #fff;
+    text-shadow:  0 0 10px #62bac5, 0 0 20px #0dafa2,0 0 40px #fff,0 0 80px #2d997e,0 0 120px #203d3c;
+}
+h1{
+    font-size: x-large;
+    font-weight:900;
+    text-shadow:  0 0 10px #62bac5, 0 0 20px #0dafa2,0 0 40px #fff,0 0 80px #2d997e,0 0 120px #203d3c;
+}
+/* h2{
+    padding-top: 7rem;
+} */
+#s1{
+    margin-top: 4rem;
+}
+#s2{
+    margin-top: 15rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+#s21{
+    padding: 3rem;
+}
+#s22{
+    /* font-size: small; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:justify;
+    background-color: #072b2b4b;
+    
+}
+#s23:hover{
+    /* box-shadow: 0 0 10px #62bac5, 0 0 20px #0a7a71,0 0 40px #fff,0 0 80px #203d3c ; */
+    transition: 0.6s;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px #118b6d,-2px -2px 5px #fff; 
+}
+/* card */
+#cardlogo{
+    width: 100%;
+
+}
+#cb2>h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#cb2>p{
+    font-size:smaller;
+    font-family: cursive;
+}
+#cb1{
+    width: 60rem;
+    color: #fff;
+}
+#cb2>a{
+    translate: 60% 20%;
+    font-size: medium;
+    border-radius: 0.5rem;
+   box-shadow: 2px 2px 5px rgb(10, 51, 48),-2px -2px 5px rgb(10, 51, 48);
+    color: #094e3d8e;
+    background-color: #6aa090;
+   font-weight: 400;
+    
+    
+}
+#cb2>a:hover{
+    color: #588582;
+    text-shadow: 2px 2px 2px rgb(4, 36, 28);
+    box-shadow: 0 0 10px #1c7969, 0 0 20px #08645c,0 0 40px #8fb9b4,0 0 80px #2d997e,0 0 120px #203d3c;
+}
+#cb2>img:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+#blogcard{
+    width: 100%;
+    height: 40%;
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(59, 143, 108);
+}
+#bc1{
+    height: 23rem;
+    width: 14rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 1rem;
+    border: 2px solid rgb(9, 78, 57);
+    box-shadow: 4px 4px 5px rgb(10, 51, 48),-4px -4px 5px rgb(10, 51, 48);
+}
+#bc1>div>h4{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(9, 78, 57);
+    text-shadow: 0 0 5px #011b13;
+}
+#bc1:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #4f867f,0 0 20px #1e775c,0 0 40px #033f30;
+}
+#bc2{
+    list-style: none;
+   height: 10rem;
+   font-size:small;
+    font-family: cursive;
+}
+#bc3{
+    height: 10rem;
+}
+tbody{
+    font-size: 0.7rem;
+}
+
+#f2{
+    list-style-type: none;
+}
+#f11{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-size:small
+}
+#f12{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(7, 119, 82);
+    text-shadow: 0 0 2px #011b13;
+}
+#f2>li>a>i{
+    color: #011b13;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    transition: transform .5s;
+    box-shadow: 2px 2px 2px rgb(1, 17, 9);
+}
+#f2>li>a>i:hover{
+    transform: scale(1.2);
+    box-shadow: 4px 4px 5px rgb(10, 51, 48),-4px -4px 5px rgb(10, 51, 48);
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+#f3{
+    color: #0a8b65;
+    text-decoration: none;
+}
+#f3:hover{
+    text-shadow: 0 0 10px #0b7052, 0 0 20px #094b3a,0 0 40px #032416;
+    
+}
+#fl{
+    width: 70%;
+    background-color:    #1b3f36;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px #62bac5, 0 0 20px #0dafa2,0 0 40px #fff,0 0 80px #2d997e,0 0 120px #203d3c;
+    text-shadow: 0 0 10px #62bac5, 0 0 20px #0dafa2,0 0 40px #fff,0 0 80px #2d997e,0 0 120px #203d3c;
+}
+#f5{
+    width: 15%;
+}
+#f5>i{
+    color: #011b13;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px rgb(3, 63, 40);
+}
+#f5>i:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgb(10, 51, 48),-2px -2px 2px rgb(10, 51, 48);
+}
+#skill{
+    margin-top: 10rem;
+}
+#footer{
+    margin-top: 10rem;
+}
+#f6{
+    width: 85%;
+}
+#f13{
+    border: 2px solid rgb(9, 78, 57);
+    box-shadow: 4px 4px 5px rgb(10, 51, 48),-4px -4px 5px rgb(10, 51, 48);
+}
+#f13:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 10px #4f867f,0 0 20px #1e775c,0 0 40px #033f30;
+}
